@@ -4,9 +4,9 @@
 
 CoRE Working group                                            C. Bormann
 Internet-Draft                                    Universität Bremen TZI
-Updates: 9176 (if approved)                                 6 March 2023
+Updates: 9176 (if approved)                                 17 July 2023
 Intended status: Informational                                          
-Expires: 7 September 2023
+Expires: 18 January 2024
 
 
                     CoRE Target Attributes Registry
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 September 2023.
+   This Internet-Draft will expire on 18 January 2024.
 
 Copyright Notice
 
@@ -137,10 +137,12 @@ Table of Contents
 
 2.1.  Instructions for the Designated Expert
 
-   The expert is instructed to be frugal in the allocation of very short
-   target attribute names, keeping them in reserve for applications that
-   are likely to enjoy wide use and can make good use of their
-   shortness.
+   The expert is requested to guide the registrant towards reasonably
+   short target attribute names where the shortness will help conserve
+   resources in constrained systems, but also to be frugal in the
+   allocation of very short names, keeping them in reserve for
+   applications that are likely to enjoy wide use and can make good use
+   of their shortness.
 
    The expert is also instructed to direct the registrant to provide a
    specification (Section 4.6 of [BCP26]), but can make exceptions, for
@@ -245,8 +247,9 @@ Table of Contents
         Table 1: Initial Entries in the Target Attributes Registry
 
    A number of names are reserved as they are used for parameters in
-   links other than target attributes.  This includes a further set that
-   is predefined in [RFC8288].
+   links other than target attributes.  A further set of target
+   attributes is predefined in [RFC8288] and is imported into this
+   registry.
 
    Section 9.3 of [RFC9176] defines the RD Parameters sub-registry.  The
    present document updates this registry with a note that all entries
